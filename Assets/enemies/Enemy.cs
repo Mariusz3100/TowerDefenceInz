@@ -24,10 +24,19 @@ using UnityEngine;
 				temp.x+=Input.GetAxisRaw("Horizontal")*Time.deltaTime*speed;
 
 			this.transform.position=temp;
-		//if(Input.GetKey(KeyCode.Space))
-			Fin
+		
+//		Transform children=transform.Find("Sphere");
+		
+//			children.Translate(new Vector3(0,1,0));
+				
+		
 	
 	}
+	
+	
+	
+	
+	
 	
 	}
 
