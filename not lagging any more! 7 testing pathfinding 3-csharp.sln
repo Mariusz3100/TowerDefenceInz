@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7724C217-B9D0-D438-B075-6FBB6CA622B5}") = "not lagging any more! 7 testing pathfinding 3", "Assembly-CSharp-firstpass-vs.csproj", "{0E98F980-87BF-47A3-4938-31B65F394111}"
+EndProject
+Project("{7724C217-B9D0-D438-B075-6FBB6CA622B5}") = "not lagging any more! 7 testing pathfinding 3", "Assembly-CSharp-vs.csproj", "{9F83A4D3-52A5-355A-D12B-B3198D17FDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E98F980-87BF-47A3-4938-31B65F394111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E98F980-87BF-47A3-4938-31B65F394111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E98F980-87BF-47A3-4938-31B65F394111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E98F980-87BF-47A3-4938-31B65F394111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F83A4D3-52A5-355A-D12B-B3198D17FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F83A4D3-52A5-355A-D12B-B3198D17FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F83A4D3-52A5-355A-D12B-B3198D17FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F83A4D3-52A5-355A-D12B-B3198D17FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

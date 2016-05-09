@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FightState>
+
+<Wave lp="2">
+    <EnemyGroup enemyType="1" amount="3">
+      <SpawnPoint x="4" y="270"/>
+      <SpawnPoint x="46" y="280"/>
+	  <SpawnPoint x="46" y="250"/>
+
+</EnemyGroup>
+
+		
+<EnemyGroup enemyType="0" amount="10">
+      <SpawnPoint x="4" y="270"/>
+      <SpawnPoint x="46" y="280"/>
+	  <SpawnPoint x="46" y="250"/>
+
+
+		
+    </EnemyGroup>
+    
+    
+</Wave>
+
+<Wave lp="3">
+    <EnemyGroup enemyType="1" amount="3">
+      <SpawnPoint x="4" y="283"/>
+      <SpawnPoint x="46" y="283"/>
+	  <SpawnPoint x="46" y="283"/>
+
+</EnemyGroup>
+
+
+    
+    
+</Wave>
+
+	
+<Wave lp="0">
+    <EnemyGroup enemyType="0" amount="3">
+	 <SpawnPoint x="46" y="260"/>
+
+	
+    </EnemyGroup>
+    
+		
+	 <EnemyGroup enemyType="1" amount="0">
+     <SpawnPoint x="15" y="283"/>
+	 <SpawnPoint x="46" y="260"/>
+
+
+
+		
+    </EnemyGroup>
+    
+    
+</Wave>	
+
+
+
+	
+<Wave lp="1">
+    <EnemyGroup enemyType="2" amount="20">
+	 <SpawnPoint x="4" y="283"/>
+
+	
+    </EnemyGroup>
+    
+		
+	 <EnemyGroup enemyType="0" amount="10">
+	 <SpawnPoint x="4" y="283"/>
+	 <SpawnPoint x="45" y="283"/>
+
+
+
+		
+    </EnemyGroup>
+    
+    
+</Wave>		
+	
+</FightState>
+

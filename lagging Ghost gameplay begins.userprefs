@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\State Machine\StateMachine.cs">
+    <Files>
+      <File FileName="Assets\enemies\Wave.cs" Line="36" Column="1" />
+      <File FileName="Assets\enemies\EnemyTemplateList.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\FightState.cs" Line="41" Column="19" />
+      <File FileName="Assets\Resources\EnemiesParameters.xml" Line="15" Column="3" />
+      <File FileName="Assets\State Machine\StateMachine.cs" Line="25" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="D:\specjalizacja\lagging Ghost gameplay begins\Assets\enemies\Wave.cs" line="26" />
+      <Breakpoint enabled="false" file="D:\specjalizacja\lagging Ghost gameplay begins\Assets\enemies\Wave.cs" line="42" />
+      <Breakpoint enabled="false" file="D:\specjalizacja\lagging Ghost gameplay begins\Assets\enemies\Wave.cs" line="36" />
+      <Breakpoint enabled="false" file="D:\specjalizacja\lagging Ghost gameplay begins\Assets\enemies\Wave.cs" line="68" />
+      <Breakpoint enabled="false" file="D:\specjalizacja\lagging Ghost gameplay begins\Assets\State Machine\StateMachine.cs" line="39" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\State Machine\FightState.cs" line="54" offsetX="426" offsetY="795" expression="waveXMLDesc" liveUpdate="False" />
+    <Watch file="Assets\enemies\Wave.cs" line="22" offsetX="154" offsetY="315" expression="waveDescription" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

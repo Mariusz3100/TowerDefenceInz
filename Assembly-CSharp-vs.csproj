@@ -5,20 +5,21 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{17B8BC32-FDAF-FA3D-1486-BFC427C6F3C2}</ProjectGuid>
+	<ProjectGuid>{C3B9663A-E665-053B-1EB7-8D48929A6941}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	<DebugSymbols>true</DebugSymbols>
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -36,20 +37,80 @@
 	<Reference Include="System" />
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GUI\GuiSelectableElement.cs" />
+     <Compile Include="Assets\GUI\Menu.cs" />
+     <Compile Include="Assets\GUI\SpellGuiElement.cs" />
+     <Compile Include="Assets\GUI\TowerGuiElement.cs" />
+     <Compile Include="Assets\GameScene\CompoundHeap.cs" />
+     <Compile Include="Assets\GameScene\Field.cs" />
+     <Compile Include="Assets\GameScene\GameScene.cs" />
+     <Compile Include="Assets\GameScene\Heap.cs" />
+     <Compile Include="Assets\GameScene\MovementAdviceSystem.cs" />
+     <Compile Include="Assets\GameScene\Path.cs" />
+     <Compile Include="Assets\GameScene\Pathfinder.cs" />
+     <Compile Include="Assets\GameScene\PathfinderWeights.cs" />
+     <Compile Include="Assets\Money\Money.cs" />
      <Compile Include="Assets\Player\Player.cs" />
-     <Compile Include="Assets\Tower\Tower.cs" />
+     <Compile Include="Assets\Spells\Spell.cs" />
+     <Compile Include="Assets\Spells\pushback\Pushback.cs" />
+     <Compile Include="Assets\Spells\pushback\PushbackEffect.cs" />
+     <Compile Include="Assets\Spells\pushback\PushbackTriangle.cs" />
+     <Compile Include="Assets\Spells\sniper\Sniper.cs" />
+     <Compile Include="Assets\Spells\sniper\SniperShot.cs" />
+     <Compile Include="Assets\Spells\swing360\Swing360.cs" />
+     <Compile Include="Assets\State Machine\BuildState.cs" />
+     <Compile Include="Assets\State Machine\FightState.cs" />
+     <Compile Include="Assets\State Machine\State.cs" />
+     <Compile Include="Assets\State Machine\StateMachine.cs" />
+     <Compile Include="Assets\Towers\Bullet.cs" />
+     <Compile Include="Assets\Towers\BulletFactory.cs" />
+     <Compile Include="Assets\Towers\Tower.cs" />
+     <Compile Include="Assets\Towers\TowerSketch.cs" />
+     <Compile Include="Assets\Towers\blue tower\BlueBullet.cs" />
+     <Compile Include="Assets\Towers\blue tower\BlueTower.cs" />
+     <Compile Include="Assets\Towers\blue tower\SlowingEffect.cs" />
+     <Compile Include="Assets\Towers\grey tower\GreyBullet.cs" />
+     <Compile Include="Assets\Towers\grey tower\GreyTower.cs" />
+     <Compile Include="Assets\Towers\red tower\RedBullet.cs" />
+     <Compile Include="Assets\Towers\red tower\RedTower.cs" />
+     <Compile Include="Assets\Tutorial\Tutorial.cs" />
      <Compile Include="Assets\enemies\Enemy.cs" />
-     <Compile Include="Assets\enemies\Pathfinder.cs" />
-     <Compile Include="Assets\top level scripts\GameScene.cs" />
-     <Compile Include="Assets\top level scripts\MGameObject.cs" />
+     <Compile Include="Assets\enemies\anti Tower Enemy\AntiTowerEnemy.cs" />
+     <Compile Include="Assets\enemies\enemies creation\EnemyGroup.cs" />
+     <Compile Include="Assets\enemies\enemies creation\Spawn Point\ParticleCircle.cs" />
+     <Compile Include="Assets\enemies\enemies creation\Spawn Point\SpawnPointController.cs" />
+     <Compile Include="Assets\enemies\enemies creation\Spawn Point\SpawnPointGameObject.cs" />
+     <Compile Include="Assets\enemies\enemies creation\TemplateList.cs" />
+     <Compile Include="Assets\enemies\enemies creation\Wave.cs" />
+     <Compile Include="Assets\enemies\enemies creation\XMLhelper.cs" />
+     <Compile Include="Assets\enemies\simple enemy\SimpleEnemy.cs" />
+     <Compile Include="Assets\enemies\slowing enemy\SlowingEnemy.cs" />
+     <Compile Include="Assets\top level scripts\CameraScript.cs" />
+     <Compile Include="Assets\top level scripts\GameSounds.cs" />
+     <Compile Include="Assets\top level scripts\GeneralParameters.cs" />
+     <Compile Include="Assets\top level scripts\LayerNames.cs" />
+     <Compile Include="Assets\top level scripts\LivingObject.cs" />
+     <Compile Include="Assets\top level scripts\OverTimeEffect.cs" />
+     <Compile Include="Assets\top level scripts\TagNames.cs" />
+     <None Include="Assets\Resources\EnemiesParameters.xml" />
+     <None Include="Assets\Money\custom text shader.shader" />
+     <None Include="Assets\top level scripts\NewShader.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/Mariusz/Desktop/Tower Defence INZ/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{2726274E-DF26-7107-27F9-EB3E31B3D420}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

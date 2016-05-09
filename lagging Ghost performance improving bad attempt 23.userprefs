@@ -1,0 +1,66 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Player\Player.cs">
+    <Files>
+      <File FileName="Assets\enemies\slowing enemy\SlowingEnemy.cs" Line="80" Column="3" />
+      <File FileName="Assets\enemies\simple enemy\SimpleEnemy.cs" Line="81" Column="74" />
+      <File FileName="Assets\Towers\red tower\RedTower.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\fireball\Fireball.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\PushbackTriangle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\PushbackEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\OverTimeEffect.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameScene\CompoundHeap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Towers\blue tower\BlueTower.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\LivingObject.cs" Line="40" Column="13" />
+      <File FileName="Assets\enemies\anti Tower Enemy\AntiTowerEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\enemies creation\EnemyGroup.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameScene\MovementAdviceSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\Pushback.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\Spell.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\EnemiesParameters.xml" Line="1" Column="1" />
+      <File FileName="Assets\Player\Player.cs" Line="101" Column="3" />
+      <File FileName="Assets\GameScene\Pathfinder.cs" Line="239" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="enemies" expanded="True">
+                <Node name="anti Tower Enemy" expanded="True" />
+                <Node name="simple enemy" expanded="True" />
+                <Node name="slowing enemy" expanded="True" />
+              </Node>
+              <Node name="GameScene" expanded="True" />
+              <Node name="Player" expanded="True">
+                <Node name="Player.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True" />
+              <Node name="Spells" expanded="True">
+                <Node name="fireball" expanded="True" />
+                <Node name="pushback" expanded="True" />
+              </Node>
+              <Node name="top level scripts" expanded="True" />
+              <Node name="Towers" expanded="True">
+                <Node name="blue tower" expanded="True" />
+                <Node name="red tower" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\specjalizacja\lagging Ghost performance improving bad attempt 23\Assets\enemies\simple enemy\SimpleEnemy.cs" line="81" />
+      <Breakpoint file="D:\specjalizacja\lagging Ghost performance improving bad attempt 23\Assets\top level scripts\LivingObject.cs" line="37" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\enemies\enemies creation\Wave.cs" line="75" offsetX="664" offsetY="1265" expression="xmlDescritpionOfGroups" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

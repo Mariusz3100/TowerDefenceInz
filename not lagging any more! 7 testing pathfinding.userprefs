@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameScene\Pathfinder.cs">
+    <Files>
+      <File FileName="Assets\enemies\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\simple enemy\SimpleEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\slowing enemy\SlowingEnemy.cs" Line="6" Column="32" />
+      <File FileName="Assets\GameScene\Pathfinder.cs" Line="38" Column="78" />
+      <File FileName="Assets\GameScene\MovementAdviceSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\StateMachine.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

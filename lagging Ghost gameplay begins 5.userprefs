@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\enemies\Spawn Point\SpawnPointController.cs">
+    <Files>
+      <File FileName="Assets\enemies\Wave.cs" Line="32" Column="29" />
+      <File FileName="Assets\enemies\Spawn Point\SpawnPointGameObject.cs" Line="46" Column="16" />
+      <File FileName="Assets\enemies\EnemyGroup.cs" Line="68" Column="2" />
+      <File FileName="Assets\enemies\SimpleEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\AntiTowerEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\StateMachine.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\GeneralParameters.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\Spawn Point\SpawnPointController.cs" Line="22" Column="76" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\specjalizacja\lagging Ghost gameplay begins 5\Assets\State Machine\StateMachine.cs" line="39" />
+      <Breakpoint file="D:\specjalizacja\lagging Ghost gameplay begins 5\Assets\enemies\Spawn Point\SpawnPoint.cs" line="21" />
+      <Breakpoint file="D:\specjalizacja\lagging Ghost gameplay begins 5\Assets\enemies\Spawn Point\SpawnPoint.cs" line="32" />
+      <Breakpoint file="D:\specjalizacja\lagging Ghost gameplay begins 5\Assets\enemies\EnemyGroup.cs" line="36" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\enemies\XMLhelper.cs" line="47" offsetX="122" offsetY="690" expression="ret" liveUpdate="False" />
+    <Watch file="Assets\enemies\EnemyGroup.cs" line="40" offsetX="186" offsetY="585" expression="spawnPoints" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

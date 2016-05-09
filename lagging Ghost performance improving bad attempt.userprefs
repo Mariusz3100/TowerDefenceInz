@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameScene\MovementAdviceSystem.cs">
+    <Files>
+      <File FileName="Assets\GameScene\MovementAdviceSystem.cs" Line="26" Column="25" />
+      <File FileName="Assets\Spells\Spell.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\fireball\Fireball.cs" Line="128" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

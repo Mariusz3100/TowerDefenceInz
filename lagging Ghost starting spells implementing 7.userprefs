@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\EnemiesParameters.xml">
+    <Files>
+      <File FileName="Assets\enemies\simple enemy\SimpleEnemy.cs" Line="6" Column="30" />
+      <File FileName="Assets\Spells\fireball\Fireball.cs" Line="53" Column="49" />
+      <File FileName="Assets\Spells\Spell.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\Pushback.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUI\Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUI\TowerGuiElement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Towers\TowerSketch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\PushbackArrow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\sniper\SniperShot.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\LivingObject.cs" Line="34" Column="1" />
+      <File FileName="Assets\GameScene\Pathfinder.cs" Line="284" Column="14" />
+      <File FileName="Assets\enemies\Enemy.cs" Line="109" Column="1" />
+      <File FileName="Assets\Resources\EnemiesParameters.xml" Line="36" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

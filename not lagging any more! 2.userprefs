@@ -1,0 +1,51 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\EnemiesParameters.xml">
+    <Files>
+      <File FileName="Assets\top level scripts\LivingObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Towers\red tower\RedTower.cs" Line="1" Column="1" />
+      <File FileName="Assets\Towers\Tower.cs" Line="63" Column="3" />
+      <File FileName="Assets\enemies\enemies creation\EnemyGroup.cs" Line="1" Column="1" />
+      <File FileName="Assets\Money\Money.cs" Line="41" Column="10" />
+      <File FileName="Assets\top level scripts\CameraScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\FightState.cs" Line="1" Column="1" />
+      <File FileName="Assets\Player\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\StateMachine.cs" Line="77" Column="48" />
+      <File FileName="Assets\GameScene\MovementAdviceSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\GUI\Menu.cs" Line="175" Column="1" />
+      <File FileName="Assets\enemies\enemies creation\Spawn Point\SpawnPointGameObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\enemies creation\Wave.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\EnemiesParameters.xml" Line="5" Column="29" />
+      <File FileName="Assets\State Machine\BuildState.cs" Line="1" Column="1" />
+      <File FileName="Assets\State Machine\State.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\GeneralParameters.cs" Line="9" Column="41" />
+      <File FileName="Assets\Towers\TowerSketch.cs" Line="70" Column="13" />
+      <File FileName="Assets\enemies\simple enemy\SimpleEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\enemies\anti Tower Enemy\AntiTowerEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\TagNames.cs" Line="1" Column="1" />
+      <File FileName="Assets\GameScene\GameScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\top level scripts\GameSounds.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\Spell.cs" Line="21" Column="20" />
+      <File FileName="Assets\Spells\fireball\Fireball.cs" Line="82" Column="1" />
+      <File FileName="Assets\Spells\sniper\Sniper.cs" Line="32" Column="4" />
+      <File FileName="Assets\Spells\pushback\Pushback.cs" Line="49" Column="5" />
+      <File FileName="Assets\Spells\pushback\PushbackTriangle.cs" Line="10" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\State Machine\StateMachine.cs" line="93" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\State Machine\StateMachine.cs" line="102" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\TowerSketch.cs" line="30" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\TowerSketch.cs" line="27" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\enemies\anti Tower Enemy\AntiTowerEnemy.cs" line="66" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\Tower.cs" line="163" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\TowerSketch.cs" line="77" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\top level scripts\GameSounds.cs" line="24" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\Tower.cs" line="26" />
+      <Breakpoint file="D:\specjalizacja\not lagging any more! 2\Assets\Towers\Tower.cs" line="63" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

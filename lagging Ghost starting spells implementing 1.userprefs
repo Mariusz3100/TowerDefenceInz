@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Spells\pushback\PushbackArrow.cs">
+    <Files>
+      <File FileName="Assets\Spells\pushback\Pushback.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\Spell.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spells\pushback\PushbackArrow.cs" Line="26" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\specka\lagging Ghost starting spells implementing 1\Assets\Spells\pushback\PushbackArrow.cs" line="26" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
